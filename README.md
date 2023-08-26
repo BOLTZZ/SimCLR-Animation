@@ -16,14 +16,16 @@ To run the animation, use the following code:
 %%manim -ql -p SimCLR3D
 ```
 # 2D Scene
-To show what images correspond to what vectors, I start off with a 2D scene at first. Here, I show the vector-image pairs, showing the anchor (white cat), positive example (black cat), and negative example (puppy). Here's the [code]() for the 2D scene. And, here's how the 2D Scene looks:
+To show what images correspond to what vectors, I start off with a 2D scene at first. Here, I show the vector-image pairs, showing the anchor (white cat), positive example (black cat), and negative example (puppy). Here's the [code](https://github.com/BOLTZZ/SimCLR-Animation/blob/main/Code/2D%20Scene.py) for the 2D scene. And, here's how the 2D Scene looks:
 
 ![2D scene](https://github.com/BOLTZZ/SimCLR-Animation/blob/main/Media/imageVectorPairs.gif)
 
 # 3D Scene
-To show the latent space, I used a 3D scene. Here, I demonstrate how the vectors are manipulated, using NT-Xent loss, to push the similar vectors together and push away the negativ example.. Here's the [code]() for the 3D scene. And, here's how the 3D Scene looks:
+To show the latent space, I used a 3D scene. Here, I demonstrate how the vectors are manipulated, using NT-Xent loss, to push the similar vectors together and push away the negativ example. Here's the [code](https://github.com/BOLTZZ/SimCLR-Animation/blob/main/Code/3D%20Scene.py) for the 3D scene. And, here's how the 3D Scene looks:
 
 ![3D scene](https://github.com/BOLTZZ/SimCLR-Animation/blob/main/Media/latentSpace.gif)
 
 # Full Animation
+I combine both scenes to get an overall animation:
+
 ![Full Animation](https://github.com/BOLTZZ/SimCLR-Animation/blob/main/Media/SimCLR%20Animation.gif)
